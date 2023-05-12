@@ -7,24 +7,25 @@
     <title>Affordable Courses</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="digital-market.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script>
-      // function handleClick() {
-      //   console.log("clicked");
-      //   return (document.getElementById("myLinks").style.display = "block");
-      // }
       function handleClick() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display == "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-        console.log(alert("Click"));
+        console.log("clicked");
+        return (document.getElementById("myLinks").style.display = "block");
       }
+      // function handleClick() {
+      //   var x = document.getElementById("myLinks");
+      //   if (x.style.display == "none") {
+      //     x.style.display = "block";
+      //   } else {
+      //     x.style.display = "none";
+      //   }
+      //   console.log(alert("Click"));
+      // }
     </script>
   </head>
   <body>
@@ -62,18 +63,20 @@
       <!-- ==============digital-markiting============= -->
       <div class="digital-marketing">
         <div class="digital-left-section">
-          <p class="text">👋Digital Marketing Service</p>
+          <p>👋Digital Marketing Service</p>
           <br />
-          <h2 class="header">
-            A Performance <br />
-            driven digital <br />
-            agency
-          </h2>
-          <p class="text">
-            Build a sucessfull brand with your team. <br />
-            collaborate, publish, mesure, All in one place.
-          </p>
-          <button class="btn">Get Started ▶</button>
+          <h2>A Performance driven digital agency</h2>
+          <div class="digital-foot">
+            <p>
+              Build a sucessfull brand with your team. collaborate, publish,
+              mesure, All in one place.
+            </p>
+            <button>
+              Get Started  <span class="right-arrow"
+              ><i class="fa fa-caret-right" aria-hidden="true"></i></i
+            ></span>
+            </button> 
+          </div>
         </div>
         <div class="digital-right-section">
           <img src="./Assarts/main-img-right.png.png" alt="image" />

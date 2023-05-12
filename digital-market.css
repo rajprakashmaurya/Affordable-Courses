@@ -1,0 +1,75 @@
+.main {
+  padding: 120px 120px;
+}
+
+.digital-marketing {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 50px;
+}
+.digital-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.digital-left-section p {
+  color: rgb(85, 85, 61);
+  font-size: 16px;
+}
+
+.digital-left-section h2 {
+  width: 400px;
+  font-size: 3rem;
+  font-weight: 550;
+}
+
+.digital-foot p {
+  color: rgb(85, 85, 61);
+  font-size: 16px;
+  width: 400px;
+  margin-top: 20px;
+}
+.digital-foot button {
+  margin-top: 35px;
+  color: white;
+  background-color: #fd6b01;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: rgb(223, 154, 26);
+}
+
+.digital-right-section > img {
+  height: 500px;
+}
+
+@media screen and (max-width: 992px) {
+  .digital-marketing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .digital-left-section h2 {
+    width: 300px;
+    font-size: 2.2rem;
+    font-weight: 550;
+    margin-top: -30px;
+  }
+  .digital-foot p {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .digital-right-section > img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .digital-right-section img {
+    display: none;
+  }
+  .digital-marketing {
+    margin-top: -50px;
+  }
+}
