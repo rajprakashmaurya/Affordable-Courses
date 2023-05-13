@@ -11,70 +11,8 @@ body {
 
 /* ===========feaures========== */
 
-
 /* =========education============ */
-.education {
-  height: 100vh;
-  width: 100%;
-}
 
-.education-top-mid {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.education-bottom {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.edu-card {
-  height: 60vh;
-  width: 28%;
-  padding: 15px;
-  border-radius: 5px;
-  background-color: #ebe5d1;
-}
-.edu-img-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  height: 30vh;
-  width: 23vw;
-  border-radius: 5px;
-  background: linear-gradient(180deg, #f103a4 0%, #012a58 70.1%);
-}
-.edu-img {
-  height: 240px;
-  padding: 20px;
-}
-.card-sub {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 30px;
-  margin-top: 40px;
-}
-.card-sub-smm {
-  height: 20px;
-  width: 50px;
-  padding: 10px;
-  color: #97770bcc;
-  font-weight: 600;
-  font-size: 20px;
-  background-color: #e9dbadcc;
-}
-.rating {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.rupee {
-  font-size: 16px;
-  font-weight: 600;
-}
 /* =======middle=========== */
 
 .middle {

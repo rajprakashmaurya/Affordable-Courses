@@ -1,0 +1,96 @@
+.education {
+  margin-top: 120px;
+  height: 100vh;
+  width: 100%;
+}
+.education-top {
+  display: grid;
+  gap: 30px;
+}
+.education-top p {
+  color: rgb(85, 85, 61);
+  font-size: 1.2rem;
+}
+.education-top h2 {
+  font-size: 2rem;
+}
+
+.education-top-mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.education-top-mid p {
+  color: rgb(85, 85, 61);
+  width: 500px;
+}
+.education-top-mid a {
+  text-decoration: none;
+}
+.education-bottom {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.edu-card {
+  padding: 15px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ebe5d1;
+}
+.education-img {
+  border-radius: 5px;
+  background: linear-gradient(to top, #042a59, #fc02a8);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.edu-img {
+  height: 240px;
+}
+
+.card-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 10px;
+}
+.card-sub h3 {
+  margin-top: 20px;
+  width: 50px;
+  padding: 5px;
+  color: #fd6b01;
+  background-color: #f8ddc8;
+}
+.card-sub p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 778px) {
+  .education-top-mid {
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .education-top-mid p {
+    width: 380px;
+  }
+}
