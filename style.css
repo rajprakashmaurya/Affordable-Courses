@@ -10,59 +10,7 @@ body {
 /* =======Digital Markiting Service========== */
 
 /* ===========feaures========== */
-.features {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 85px;
-  gap: 20px;
-}
-.feature-top {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  /* margin-left: 110px; */
-}
-.feature-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 50px;
-  justify-content: space-between;
-}
-.feature-sub {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.feature-img1 {
-  height: 50px;
-  width: 50px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #e4b847;
-}
-.feature-img2 {
-  height: 50px;
-  width: 50px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #00c0a0;
-}
-.feature-img3 {
-  height: 50px;
-  width: 50px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #fe9e93;
-}
-.feature-header {
-  font-size: 28px;
-}
-.Create {
-  line-height: 22px;
-}
+
 
 /* =========education============ */
 .education {

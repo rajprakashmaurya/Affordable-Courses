@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="digital-market.css" />
+    <link rel="stylesheet" href="features.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,6 +18,7 @@
         console.log("clicked");
         return (document.getElementById("myLinks").style.display = "block");
       }
+      handleClick();
       // function handleClick() {
       //   var x = document.getElementById("myLinks");
       //   if (x.style.display == "none") {
@@ -85,13 +87,12 @@
       <!-- =========feature=========== -->
       <div class="features">
         <div class="feature-top">
-          <p class="text">Features</p>
-          <br />
-          <h2 class="header">
+          <p>Features</p>
+          <h2>
             All your teams need, <br />
             in one tool.
           </h2>
-          <p class="text">
+          <p>
             Read our owesome features that is absolutuly suit for you , explore
             the <br />
             feature and know the best.
@@ -100,42 +101,50 @@
         <div class="feature-bottom">
           <div class="feature-sub">
             <img
-              class="feature-img1"
+              class="feature-img image1"
               src="./Assarts/feature/image_2023_02_26T09_03_02_084Z.png"
               alt=""
             />
-            <h3 class="feature-header">Ads Manager</h3>
-            <p class="text Create">
-              Create sensitive <br />
-              object driven ad<br />
-              compaigns
-            </p>
+            <div class="featureContent">
+              <h2>Ads Manager</h2>
+              <p>
+               Create sensitive 
+                object driven ad
+                compaigns
+              </p>
+            </div>
+            
           </div>
           <div class="feature-sub">
             <img
-              class="feature-img2"
+              class="feature-img image2 "
               src="./Assarts/feature/image_2023_02_26T09_03_39_224Z.png"
               alt=""
             />
-            <h3 class="feature-header">Automated Publishing</h3>
-            <p class="text Create">
-              Schedule your posts <br />
-              and add in advance then sit <br />
-              back and relex
-            </p>
+            <div class="featureContent">
+               <h2>Automated Publishing</h2>
+                <p>
+                 Schedule your posts
+                 and add in advance then sit
+                 back and relex
+                </p>
+            </div>
+            
           </div>
           <div class="feature-sub">
             <img
-              class="feature-img3"
+              class="feature-img image3"
               src="./Assarts/feature/image_2023_02_26T09_04_01_880Z.png"
               alt=""
             />
-            <h3 class="feature-header">Advance Analytics</h3>
-            <p class="text Create">
-              Mesure your success and <br />
-              get better with <br />
-              every post
-            </p>
+            <div class="featureContent">
+              <h2>Advance Analytics</h2>
+              <p>
+                Mesure your success and 
+                get better with
+                every post
+              </p>
+            </div>
           </div>
         </div>
       </div>
