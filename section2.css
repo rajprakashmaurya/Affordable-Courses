@@ -1,0 +1,47 @@
+.section2 {
+  background-color: #ebe5d1;
+  margin-bottom: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+.section2-left > h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.section2-left {
+  display: grid;
+  gap: 20px;
+}
+.section2-left > p {
+  font-size: 18px;
+  color: #2e635a;
+}
+.section2-right > button {
+  color: white;
+  margin-top: 10%;
+  font-size: 1.7rem;
+  border: none;
+  padding: 10px 10px;
+  font-weight: 600;
+  background-color: #fd6b01;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 668px) {
+  .section2 {
+    padding: 30px 20px;
+    margin-top: 10%;
+    flex-direction: column;
+  }
+  .section2-left > h2 {
+    font-size: 2.5rem;
+  }
+  .section2-right > p {
+    margin-top: 10%;
+  }
+  .section2-right > button {
+    font-size: 1.2rem;
+  }
+}
